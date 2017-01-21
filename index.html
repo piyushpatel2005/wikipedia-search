@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/theme.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+    <title>Wikipedia Search - Search your favorite article!</title>
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+           <div class="col-xs-10 col-xs-push-1">
+              <h1>Wikipedia Article Search</h1>
+      <p>Type your search query and we'll suggest you list of articles from Wikipedia.</p>
+               <div class="form-group">
+                   <div class="inner-addon">
+                        <i class="glyphicon glyphicon-search"></i>
+                        <input type="text" autofocus id="searchField" placeholder="Search Wiki Article" class="form-control">
+                   </div>
+                </div>
+                <div class="alert alert-danger alert-dismissable hidden" id="error">
+                  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                  <strong>Error!</strong> Please, type a search term.
+                </div>
+                <button type="submit" class="btn btn-info center-block" id="search">Search</button>
+            </div>
+       </div>
+       <div class="row" id="articles">
+           
+       </div>
+       <footer class="footer row">
+         <div class="col-xs-12">
+          <hr>
+           <p class="text-center">Created by <a href="http://github.com/piyushpatel2005" class="btn btn-danger">Piyush Patel</a></p>
+           </div>
+       </footer>
+   </div>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
