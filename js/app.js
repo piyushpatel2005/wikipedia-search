@@ -8,7 +8,7 @@ $(document).ready(function () {
         } 
         $.ajax({
         type: "GET",
-        url: "http://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm + "&format=json",
+        url: "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm + "&format=json",
         contentType: "application/json; charset=utf-8",
         async: false,
         dataType: "json",
